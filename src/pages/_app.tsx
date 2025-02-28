@@ -30,7 +30,7 @@ function MyApp(props: MyAppProps) {
   return (
     <React.Fragment>
       <Head>
-        <title>{`${TITLE} - Galaxy template`}</title>
+        <title>{`${TITLE} - Doc`}</title>
 
         <meta charSet="UTF-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
