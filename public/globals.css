@@ -84,7 +84,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--primary-foreground); /* Color when hovering over the thumb */
+  background-color: var(
+    --primary-foreground
+  ); /* Color when hovering over the thumb */
 }
 
 /* Custom Scrollbar Styles */
@@ -123,12 +125,12 @@ body {
 
 @layer components {
   .bg-background-light {
-    background-image: url("background-light.svg");
+    background-image: url('background-light.svg');
     background-size: cover; /* Equivalent to Tailwind's bg-cover */
     background-position: center; /* Equivalent to Tailwind's bg-center */
   }
   .bg-background-dark {
-    background-image: url("background-dark.svg");
+    background-image: url('background-dark.svg');
     background-size: cover; /* Equivalent to Tailwind's bg-cover */
     background-position: center; /* Equivalent to Tailwind's bg-center */
   }

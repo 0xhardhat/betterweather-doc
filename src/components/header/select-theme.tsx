@@ -37,7 +37,6 @@ export function SelectTheme() {
   const { theme, setTheme } = useTheme();
   const [themecolor, setThemecolor] = useAtom(themeAtom);
 
-  const currentTheme = theme as keyof typeof THEMES;
   const handleThemeChange = (newTheme: string) => {
     setThemecolor(newTheme);
     setTheme(newTheme);
@@ -54,6 +53,7 @@ export function SelectTheme() {
       setTheme(storedTheme);
     }
   }, []);
+
   if (!isMounted()) {
     return null;
   }

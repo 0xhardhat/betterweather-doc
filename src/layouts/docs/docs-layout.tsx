@@ -1,14 +1,8 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import type { ReactNode } from 'react';
-
-import { PencilSquareIcon } from '@heroicons/react/20/solid';
 
 import { Aside } from './components/aside';
 import { Pagination } from './components/pagination';
 import { TableOfContents } from './components/table-of-contents';
-
-import { GITHUB_EDIT_URL } from '@/config';
 
 interface DocsLayoutProps {
   markdoc: Record<string, any> | undefined;
@@ -17,7 +11,6 @@ interface DocsLayoutProps {
 
 function DocsLayout(props: DocsLayoutProps) {
   let { markdoc, children } = props;
-  let router = useRouter();
 
   return (
     <div

@@ -54,14 +54,13 @@ pre[class*='language-'] {
 
 @layer components {
   .bg-background-light {
-    background-image: url("/background-light.svg");
+    background-image: url('/background-light.svg');
     background-size: cover; /* Equivalent to Tailwind's bg-cover */
     background-position: center; /* Equivalent to Tailwind's bg-center */
   }
   .bg-background-dark {
-    background-image: url("/background-dark.svg");
+    background-image: url('/background-dark.svg');
     background-size: cover; /* Equivalent to Tailwind's bg-cover */
     background-position: center; /* Equivalent to Tailwind's bg-center */
   }
 }
-

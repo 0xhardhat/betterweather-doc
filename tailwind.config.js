@@ -6,7 +6,7 @@ module.exports = {
     './src/pages/**/*.{ts,tsx}',
     './src/components/**/*.{ts,tsx}',
     './src/layouts/**/*.{ts,tsx}',
-    "./src/**/*.{js,ts,jsx,tsx}"
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -15,8 +15,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
-        rubik: ["Rubik", "sans-serif"],
-        poppins: ["Poppins"],
+        rubik: ['Rubik', 'sans-serif'],
+        poppins: ['Poppins'],
       },
     },
   },

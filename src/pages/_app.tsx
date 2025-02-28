@@ -4,7 +4,6 @@ import '@/styles/main.css';
 import React from 'react';
 import Head from 'next/head';
 import type { AppProps } from 'next/app';
-import Script from 'next/script';
 
 import type { MarkdocNextJsPageProps } from '@markdoc/next.js';
 
@@ -65,14 +64,6 @@ function MyApp(props: MyAppProps) {
         />
         {/* <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
         <script src="https://cdn.jsdelivr.net/npm/react-apexcharts"></script> */}
-        <Script
-          src="https://cdn.jsdelivr.net/npm/apexcharts"
-          strategy="beforeInteractive"
-        />
-        <Script
-          src="https://cdn.jsdelivr.net/npm/react-apexcharts"
-          strategy="beforeInteractive"
-        />
 
         <meta
           property="og:image"
